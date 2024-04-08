@@ -1,0 +1,27 @@
+.root {
+    -fx-font: bold italic 15pt "Cambria Math";
+    -fx-background-image: url("../images/background.png");
+
+
+}
+
+
+.label{
+    -fx-text-fill: #FFB6FD;
+    -fx-font: bold 15pt "Cambria Math";
+}
+
+.back-button {
+    -fx-background-color: #EAFFE4;
+    -fx-text-fill: #005C55;
+    -fx-font-size: 14px;
+    -fx-font: bold 8pt "Arial";
+}
+
+.details {
+    -fx-background-image: url("images/background.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: bottom center;
+    -fx-background-size: cover;
+    -fx-width:100%;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="800.0" stylesheets="@styles.css" styleClass="details" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dogsapi.DogResultController">
+    <children>
+        <ImageView fx:id="dogImageView" layoutX="50.0" layoutY="80.0" fitWidth="300" fitHeight="400" preserveRatio="true" />
+        <Label fx:id="nameLabel" layoutX="50.0" layoutY="300.0" text="Dog breed: " textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="coatLengthLabel" layoutX="50.0" layoutY="330.0" text="Coat length: " textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="trainabilityLabel" layoutX="50.0" layoutY="360.0" text="Trainability: " textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="energyLabel" layoutX="50.0" layoutY="390.0" text="Energy: " textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="minLifeExpectancyLabel" layoutX="50.0" layoutY="420.0" text="Min. Life Expectancy: " textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="maxLifeExpectancyLabel" layoutX="50.0" layoutY="450.0" text="Max. Life Expectancy: " textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="300.0" layoutY="520.0" onAction="#handleBackButtonClick" text="Back to search " styleClass="back-button"/>
+
+    </children>
+</AnchorPane>
